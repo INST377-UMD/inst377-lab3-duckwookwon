@@ -1,0 +1,148 @@
+body {
+    background-color: lightblue; 
+}
+
+#bar {
+    text-align: center;
+    color: white;
+    background-color: blue; 
+    padding: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#main-nav {
+    background-color: red;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#main-nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+#main-nav li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: red;
+    float: left;
+    padding: 0;
+}
+
+#main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-area {
+    width: 70%;
+    float: left;
+    margin: 0;
+    background-color: white;
+    padding: 15px;
+    border-right: 2px solid black; 
+}
+
+.content-box {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#contact {
+    text-align: left;
+    background-color: lightblue; 
+    float: right;
+    width: 28%;
+    padding: 15px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+#contact:hover {
+    background-color: lightgreen;
+  }
+
+#contact h1 {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#contact ul {
+    padding-left: 15px;
+}
+
+#contact li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+form {
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    transition: width 0.3s;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+input[type="text"]:focus {
+    width: 180px;
+    border-color: navy;
+}
+
+input[type="submit"] {
+    padding: 8px 12px;
+    background-color: red; 
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkred;
+}
+
+.main-container {
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: blue; 
+    color: white;
+    font-size: 14px;
+}
